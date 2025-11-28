@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Khalisa - Konsultan Bisnis Terpercaya",
   description: "Solusi konsultan terpercaya untuk mengembangkan bisnis Anda dengan strategi yang tepat dan implementasi yang efektif",
+  icons: {
+    icon: "/khalisa_vertical.png",
+    apple: "/khalisa_vertical.png",
+  },
 };
 
 export default function RootLayout({
