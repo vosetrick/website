@@ -4,48 +4,46 @@ import Link from "next/link";
 export default function Home() {
   const services = [
     {
-      title: "Konsultasi Bisnis",
-      description: "Memberikan solusi strategis untuk mengembangkan bisnis Anda dengan pendekatan yang inovatif dan efektif.",
-      icon: "💼"
+      title: "Tax Compliance & Review",
+      description: "Memastikan kepatuhan pajak perusahaan Anda dengan regulasi terkini serta melakukan review menyeluruh untuk optimalisasi pajak.",
+      icon: "📋"
     },
     {
-      title: "Manajemen Proyek",
-      description: "Mengelola proyek dengan metodologi terbaik untuk memastikan hasil yang optimal dan tepat waktu.",
+      title: "Tax Litigation",
+      description: "Mendampingi dan mewakili klien dalam sengketa pajak dengan strategi litigasi yang efektif dan profesional.",
+      icon: "⚖️"
+    },
+    {
+      title: "Business Research & Study Service",
+      description: "Menyediakan riset dan studi bisnis mendalam untuk mendukung pengambilan keputusan strategis perusahaan Anda.",
       icon: "📊"
-    },
-    {
-      title: "Analisis Data",
-      description: "Menganalisis data bisnis untuk memberikan insight yang actionable dan mendukung pengambilan keputusan.",
-      icon: "📈"
-    },
-    {
-      title: "Transformasi Digital",
-      description: "Membantu perusahaan bertransformasi digital dengan teknologi dan strategi yang tepat.",
-      icon: "🚀"
     }
   ];
 
   const leadership = [
     {
-      name: "Nadia",
+      name: "Nadia Khairina, S.Akun., S.H., BKP.",
       position: "Managing Partner",
       description: "Memimpin strategi dan arah perusahaan dengan pengalaman lebih dari 15 tahun di bidang konsultasi bisnis.",
-      image: "/nadia.jpg",
-      slug: "nadia"
+      image: "/Nadia.png",
+      slug: "nadia",
+      flip: false
     },
     {
-      name: "Filosofi",
-      position: "Senior Partner",
-      description: "Spesialis dalam transformasi digital dan inovasi bisnis dengan track record sukses di berbagai industri.",
-      image: "/filo.png",
-      slug: "filosofi"
-    },
-    {
-      name: "Saskia",
+      name: "Saskia Salmana, S.Ak., M.Ak.",
       position: "Senior Partner",
       description: "Ahli dalam manajemen proyek dan pengembangan organisasi dengan pendekatan yang terstruktur dan efektif.",
-      image: "/saskia.jpg",
-      slug: "saskia"
+      image: "/Saskia.png",
+      slug: "saskia",
+      flip: true
+    },
+    {
+      name: "Filosofi Putri Aulia, S.Ak., M.Ak., RSA.",
+      position: "Partner",
+      description: "Spesialis dalam transformasi digital dan inovasi bisnis dengan track record sukses di berbagai industri.",
+      image: "/Filosofi.png",
+      slug: "filosofi",
+      flip: true
     }
   ];
 
@@ -110,7 +108,7 @@ export default function Home() {
               Solusi komprehensif untuk mengakselerasi pertumbuhan bisnis Anda
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
@@ -167,7 +165,7 @@ export default function Home() {
                       src={leader.image}
                       alt={leader.name}
                       fill
-                      className="object-cover"
+                      className={`object-cover ${leader.flip ? '-scale-x-100' : ''}`}
                     />
                   </div>
                 </div>
@@ -240,7 +238,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-4">
               <Image
-                src="/khalisa_horizontal.png"
+                src="/Khalisa Consulting Logo Horizontal White.png"
                 alt="Khalisa Logo"
                 width={200}
                 height={60}

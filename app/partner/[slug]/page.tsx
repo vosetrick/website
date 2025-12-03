@@ -22,142 +22,102 @@ interface PartnerData {
 
 const partnersData: Record<string, PartnerData> = {
   nadia: {
-    name: "Nadia",
+    name: "Nadia Khairina, S.Akun., S.H., BKP.",
     position: "Managing Partner",
-    image: "/nadia.jpg",
+    image: "/Nadia.png",
     description:
-      "Memimpin strategi dan arah perusahaan dengan pengalaman lebih dari 15 tahun di bidang konsultasi bisnis. Nadia memiliki track record yang solid dalam membantu perusahaan-perusahaan besar mencapai transformasi bisnis yang sukses.",
+      "merupakan profesional berpengalaman di Khalisa Consulting dengan keahlian di bidang perpajakan, akuntansi, dan aspek hukum bisnis. Beliau memiliki kompetensi yang solid dalam memberikan solusi perpajakan yang komprehensif, menggabungkan pemahaman mendalam terkait regulasi fiskal dengan perspektif hukum yang relevan dalam praktik bisnis.",
     education: [
       {
-        degree: "Master of Business Administration (MBA)",
-        institution: "Harvard Business School",
-        year: "2008",
+        degree: "Sarjana Akuntansi (S.Akun.)",
+        institution: "",
+        year: "",
       },
       {
-        degree: "Bachelor of Economics",
-        institution: "Universitas Indonesia",
-        year: "2005",
+        degree: "Sarjana Hukum",
+        institution: "",
+        year: "",
       },
     ],
     certifications: [
       {
-        title: "Certified Management Consultant (CMC)",
-        issuer: "Institute of Management Consultants",
-        year: "2010",
-      },
-      {
-        title: "Project Management Professional (PMP)",
-        issuer: "Project Management Institute",
-        year: "2012",
-      },
-      {
-        title: "Strategic Leadership Certificate",
-        issuer: "MIT Sloan School of Management",
-        year: "2015",
+        title: "Bersertifikat Konsultan Pajak (BKP)",
+        issuer: "",
+        year: "",
       },
     ],
     expertise: [
-      "Strategic Planning",
-      "Business Transformation",
-      "Corporate Governance",
-      "Change Management",
-      "Executive Leadership",
+        "Tax Compliance & Advisory",
+        "Tax Planning & Strategy",
+        "Tax Dispute Resolution",
+        "Legal Aspects of Taxation",
+        "Corporate Tax Consultation",
+        "Transfer Pricing",
+        "Tax Risk Management",
     ],
   },
   filosofi: {
-    name: "Filosofi",
-    position: "Senior Partner",
-    image: "/filo.png",
-    description:
-      "Spesialis dalam transformasi digital dan inovasi bisnis dengan track record sukses di berbagai industri. Filosofi memiliki keahlian mendalam dalam mengimplementasikan teknologi terkini untuk meningkatkan efisiensi operasional perusahaan.",
+    name: "Filosofi Putri Aulia, S.Ak., M.Ak., RSA.",
+    position: "Partner",
+    image: "/Filosofi.png",
+    description:"merupakan profesional bersertifikat di Khalisa Consulting dengan spesialisasi di bidang akuntansi, audit, dan sistem pengendalian internal. Beliau memiliki keahlian yang komprehensif dalam melaksanakan audit keuangan, evaluasi sistem akuntansi, serta penyusunan strategi pengendalian risiko yang selaras dengan standar profesional dan regulasi yang berlaku.",
     education: [
       {
-        degree: "Master of Information Technology",
-        institution: "Stanford University",
-        year: "2009",
+        degree: "Sarjana Akuntansi (S.Ak.)",
+        institution: "",
+        year: "",
       },
       {
-        degree: "Bachelor of Computer Science",
-        institution: "Institut Teknologi Bandung",
-        year: "2006",
+        degree: "Magister Akuntansi (M.Ak.)",
+        institution: "",
+        year: "",
       },
     ],
     certifications: [
       {
-        title: "Certified Digital Transformation Professional",
-        issuer: "Digital Transformation Institute",
-        year: "2014",
-      },
-      {
-        title: "AWS Certified Solutions Architect",
-        issuer: "Amazon Web Services",
-        year: "2016",
-      },
-      {
-        title: "Agile Certified Practitioner",
-        issuer: "Scrum Alliance",
-        year: "2013",
-      },
-      {
-        title: "Data Analytics Professional Certificate",
-        issuer: "Google",
-        year: "2018",
-      },
+        title: "Regular Securities Analyst (RSA)",
+        issuer: "",
+        year: "",
+      }
     ],
     expertise: [
-      "Digital Transformation",
-      "Innovation Strategy",
-      "Technology Integration",
-      "Process Automation",
-      "Data Analytics",
+      "Financial Audit & Assurance",
+        "Internal Control Evaluation",
+        "Risk-based Audit",
+        "System & Information Audit",
+        "Compliance Audit",
+        "Operational Audit",
+        "Quality Assurance & Control",
     ],
   },
   saskia: {
-    name: "Saskia",
+    name: "Saskia Salmana, S.Ak., M.Ak.",
     position: "Senior Partner",
-    image: "/saskia.jpg",
-    description:
-      "Ahli dalam manajemen proyek dan pengembangan organisasi dengan pendekatan yang terstruktur dan efektif. Saskia telah memimpin puluhan proyek besar dengan tingkat keberhasilan yang tinggi di berbagai sektor industri.",
+    image: "/Saskia.png",
+    description:"merupakan profesional di bidang akuntansi dan perpajakan di Khalisa Consulting dengan keahlian yang mendalam dalam pelaporan keuangan, analisis perpajakan, dan konsultasi manajemen. Beliau memiliki kompetensi yang komprehensif dalam menyusun strategi akuntansi dan perpajakan yang efektif bagi berbagai jenis entitas bisnis.",
     education: [
       {
-        degree: "Master of Project Management",
-        institution: "University of Oxford",
-        year: "2010",
+        degree: "Sarjana Akuntansi (S.Ak.)",
+        institution: "",
+        year: "",
       },
       {
-        degree: "Bachelor of Business Administration",
-        institution: "Universitas Gadjah Mada",
-        year: "2007",
+        degree: "Magister Akuntansi (M.Ak.)",
+        institution: "",
+        year: "",
       },
     ],
     certifications: [
-      {
-        title: "Project Management Professional (PMP)",
-        issuer: "Project Management Institute",
-        year: "2011",
-      },
-      {
-        title: "PRINCE2 Practitioner",
-        issuer: "AXELOS",
-        year: "2012",
-      },
-      {
-        title: "Certified Organizational Development Professional",
-        issuer: "Association for Talent Development",
-        year: "2015",
-      },
-      {
-        title: "Lean Six Sigma Black Belt",
-        issuer: "ASQ",
-        year: "2017",
-      },
+      
     ],
     expertise: [
-      "Project Management",
-      "Organizational Development",
-      "Process Optimization",
-      "Team Leadership",
-      "Risk Management",
+       "Financial Reporting & Analysis",
+        "Tax Accounting & Reconciliation",
+        "Management Accounting",
+        "Tax Compliance Services",
+        "Financial Statement Preparation",
+        "Fiscal Correction & Analysis",
+        "Business Advisory Services",
     ],
   },
 };
@@ -336,7 +296,7 @@ export default async function PartnerPage({
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-4">
               <Image
-                src="/khalisa_horizontal.png"
+                src="/Khalisa Consulting Logo Horizontal White.png"
                 alt="Khalisa Logo"
                 width={200}
                 height={60}
