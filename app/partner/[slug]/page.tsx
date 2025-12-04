@@ -91,7 +91,7 @@ const partnersData: Record<string, PartnerData> = {
     ],
   },
   saskia: {
-    name: "Saskia Salmana, S.Ak., M.Ak.",
+    name: "Saskia Salmana, S.Ak., M.Sc.",
     position: "Senior Partner",
     image: "/Saskia.png",
     description:"merupakan profesional di bidang akuntansi dan perpajakan di Khalisa Consulting dengan keahlian yang mendalam dalam pelaporan keuangan, analisis perpajakan, dan konsultasi manajemen. Beliau memiliki kompetensi yang komprehensif dalam menyusun strategi akuntansi dan perpajakan yang efektif bagi berbagai jenis entitas bisnis.",
@@ -102,7 +102,7 @@ const partnersData: Record<string, PartnerData> = {
         year: "",
       },
       {
-        degree: "Magister Akuntansi (M.Ak.)",
+        degree: "Master of Science (M.Sc.)",
         institution: "",
         year: "",
       },

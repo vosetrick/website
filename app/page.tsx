@@ -30,7 +30,7 @@ export default function Home() {
       flip: false
     },
     {
-      name: "Saskia Salmana, S.Ak., M.Ak.",
+      name: "Saskia Salmana, S.Ak., M.Sc.",
       position: "Senior Partner",
       description: "Ahli dalam manajemen proyek dan pengembangan organisasi dengan pendekatan yang terstruktur dan efektif.",
       image: "/Saskia.png",
